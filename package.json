@@ -1,0 +1,34 @@
+{
+  "name": "@mikezimm/fps-styles",
+  "version": "1.0.1",
+  "description": "CSS For other libraries",
+  "license": "MIT",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "build": "del-cli \"./?(dist|lib)\" && tsc -p ./tsconfig.json && webpack",
+    "prod": "del-cli \"./?(dist|lib)\" && tsc -p ./tsconfig.json && webpack --mode production",
+    "package": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --config ./webpack.config.cjs",
+    "clean": "del-cli \"./?(dist|lib)\"",
+    "lint": "eslint ./src --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikezimm/fps-styles.git"
+  },
+  "keywords": [
+    "SPFx",
+    "functions"
+  ],
+  "author": "Mike Zimmerman",
+  "bugs": {
+    "url": "https://github.com/mikezimm/fps-styles/issues"
+  },
+  "homepage": "https://github.com/mikezimm/fps-styles#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
