@@ -22,7 +22,7 @@
 }
 
 .easy-pages-article {
-  width: calc(100% - 60px );
+  width: calc(100% - 6em ) !important;
 }
 
 .easy-pages-spa {
