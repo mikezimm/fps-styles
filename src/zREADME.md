@@ -1,11 +1,14 @@
 npm version major/minor/patch
 npm publish --access=public
 
-npm install @mikezimm/fps-styles@1.0.8
+npm install @mikezimm/fps-styles@1.0.9
 
 Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Users/dev/Documents/GitHub/fps-styles/dist" -recurse -verbose
 
 # Changelog
+
+## @1.0.9 - 2022-Dec-20:
+- updated easy-pages-spa and easy-pages-article to new maxwidth based on testing
 
 ## @1.0.8 - 2022-Dec-19:
 - changed blueBarLeft to blue-bar-left

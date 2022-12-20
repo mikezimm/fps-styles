@@ -22,11 +22,13 @@
 }
 
 .easy-pages-article {
-  width: calc(100% - 6em ) !important;
+  /*  Modified to 32px to fix https://github.com/mikezimm/fps-library-v2/issues/13*/
+  width: calc(100% - 32px ) !important;
+  /* width: calc(100% - 6em ) !important; */
 }
 
 .easy-pages-spa {
-  width: calc(100% - 6em );
+  width: 100% !important;
 }
 
 /* https://github.com/mikezimm/drilldown7/issues/263 */
