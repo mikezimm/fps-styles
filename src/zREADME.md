@@ -1,11 +1,20 @@
 npm version major/minor/patch
 npm publish --access=public
 
-npm install @mikezimm/fps-styles@1.0.5
+npm install @mikezimm/fps-styles@1.0.8
 
 Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Users/dev/Documents/GitHub/fps-styles/dist" -recurse -verbose
 
 # Changelog
+
+## @1.0.8 - 2022-Dec-19:
+- changed blueBarLeft to blue-bar-left
+
+## @1.0.7 - 2022-Dec-19:
+- add leftMargin to blueBarLeft in reactListView.css
+
+## @1.0.6 - 2022-Dec-19:
+- add fps-list-header-bar to reactListView
 
 ## @1.0.5 - 2022-Dec-16:
 - add reactListView.css from Drilldown

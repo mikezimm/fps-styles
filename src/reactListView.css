@@ -1,4 +1,11 @@
 
+.fps-list-header-bar {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
 .default-font-size *[data-automationid="ColumnsHeaderColumn"] {
   font-size: inherit;
 }
@@ -24,12 +31,13 @@
   font-size: larger;
 }
 
-.blueBarLeft {
+.blue-bar-left {
   padding-left: 20px;
   white-space: nowrap;
   overflow: hidden;
   max-width: 35%;
   text-overflow: ellipsis;
+  margin-left: 20px;
 }
 
 /* =>> address:  https://github.com/mikezimm/drilldown7/issues/270
