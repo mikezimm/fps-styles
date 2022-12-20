@@ -8,7 +8,7 @@ Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Us
 # Changelog
 
 ## @1.0.9 - 2022-Dec-20:
-- updated easy-pages-spa and easy-pages-article to new maxwidth based on testing
+- updated easy-pages-spa and easy-pages-article to new maxwidth based on testing: https://github.com/mikezimm/fps-library-v2/issues/13
 
 ## @1.0.8 - 2022-Dec-19:
 - changed blueBarLeft to blue-bar-left
