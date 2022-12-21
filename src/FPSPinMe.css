@@ -61,6 +61,10 @@
     transition:all 0.4s ease ;
     max-height: 45px ;
     overflow-y: hidden;
+    /* Added while testing fps-library-v2 in Drilldown. 
+    Larger web part was showing scroll bar while shrunk hiding all buttons
+     */
+    overflow-x: hidden;
 
 }
 

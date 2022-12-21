@@ -1,11 +1,14 @@
 npm version major/minor/patch
 npm publish --access=public
 
-npm install @mikezimm/fps-styles@1.0.9
+npm install @mikezimm/fps-styles@1.0.10
 
 Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Users/dev/Documents/GitHub/fps-styles/dist" -recurse -verbose
 
 # Changelog
+
+## @1.0.10 - 2022-Dec-20:
+- add to overflow-x: hidden; pinMeMini - on Drilldown, was showing scroll bar.
 
 ## @1.0.9 - 2022-Dec-20:
 - updated easy-pages-spa and easy-pages-article to new maxwidth based on testing: https://github.com/mikezimm/fps-library-v2/issues/13
