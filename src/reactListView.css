@@ -83,6 +83,7 @@ https://csspoo.com/fade-out-overflow-text */
   font-size: larger;
   font-weight: 600;
   overflow: hidden;
+  transition: all 0.6s ease;
 }
 
 .quickCommandShow {
