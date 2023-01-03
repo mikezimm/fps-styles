@@ -1,11 +1,16 @@
 npm version major/minor/patch
 npm publish --access=public
 
-npm install @mikezimm/fps-styles@1.0.11
+npm install @mikezimm/fps-styles@1.0.12
 
 Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Users/dev/Documents/GitHub/fps-styles/dist" -recurse -verbose
 
 # Changelog
+
+## @1.0.12 - 2023-Jan-03:
+- add selectDots.css
+- add fadeCarouselStyles.css
+- add fadeCarouselArrows.css
 
 ## @1.0.11 - 2022-Dec-21:
 - add quickCommand (footer) styles to reactListView
