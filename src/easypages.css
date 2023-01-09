@@ -31,9 +31,13 @@
   width: 100% !important;
 }
 
-/* https://github.com/mikezimm/drilldown7/issues/263 */
+
+
 .ep-drilldown-spa {
-  width: calc(100% - 4em );
+  /* https://github.com/mikezimm/drilldown7/issues/263 */
+  /* width: calc(100% - 4em ); */
+  /* https://github.com/mikezimm/drilldown7/issues/311 */
+  width: calc(100%);
 }
 
 .easy-pages-close {

@@ -1,6 +1,6 @@
 {
   "name": "@mikezimm/fps-styles",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "CSS For other libraries",
   "license": "MIT",
   "main": "dist/index",

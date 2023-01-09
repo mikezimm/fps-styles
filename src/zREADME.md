@@ -7,6 +7,9 @@ Copy-Item "C:/Users/dev/Documents/GitHub/fps-styles/src"  -filter '*.css' "C:/Us
 
 # Changelog
 
+## @1.0.13 - 2023-Jan-09:
+- fix easyPages.css for drilldown-spa width to 100%
+
 ## @1.0.12 - 2023-Jan-03:
 - add selectDots.css
 - add fadeCarouselStyles.css
